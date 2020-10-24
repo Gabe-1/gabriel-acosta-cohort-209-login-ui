@@ -1,0 +1,67 @@
+html, body, h1, p{
+    margin: 0;
+}
+.container {
+    align-items: center;
+    background-color: whitesmoke;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+}
+
+#login-box {
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px rgb(0,0,0,.3);
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    width: 300px;
+}
+
+input, button {
+    width: 60%;
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: 1.25px;
+    border-color: black;
+}
+
+::placeholder {
+    color: gray;
+}
+
+#username {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+#password {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+button {
+    background-color: blue;
+    color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px rgb(0,0,0,.3);
+    margin-top: 20px;
+    border: none;
+    height: 30px;
+}
